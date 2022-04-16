@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background:url("./warpper.png");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+}
+
+.top{
+    overflow:hidden;
+    background-color:lightslategray;
+}
+.top a{
+  float:left;
+  display:block;
+  color:#f2f2f2;
+  text-align:center;
+  padding:14px 16px;
+  text-decoration:none;
+ }
+.top a:hover{
+  background-color:#ddd;
+  color:black;
+}
+
+.title{
+    perspective:400px;
+    width:100%;
+    height:620px;
+    position:relative;
+}
+
+.topic{
+    position:fixed;
+    display:flex;
+    justify-content: center;
+    left:0;
+    right:0;
+    top:300px;
+    margin:auto;
+    bottom:0;
+    color:#fff;
+    font-size:70px;
+    font-weight:500;
+}
+
+.card{
+    background-color:rgba(255,255,255,0.5);
+    padding:20px;
+    margin-top:20px;
+    border-radius:50px;
+}
+.biaoti{
+    text-align: center;
+}
+
+.footer{
+    background-color:lightslategray;
+    text-align: center;
+    margin-top:50px;
+}
+
+.botton{
+    width:240px;
+    height:60px;
+    position:absolute;
+    top:480px;
+    left:600px;
+    background-color:lightslategray;
+    border-radius:40px;
+    text-align:center;
+    line-height:60px;
+    font-size:22px;
+    color:black;
+}
