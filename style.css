@@ -35,6 +35,12 @@ body{
     font-size:25px;
     font-weight: 100;
 }
+.topbiaoti{
+    font-size:45px;
+    font-weight: bold;
+    color:aliceblue;
+    padding:1px 80px;
+}
 
 .title{
     perspective:400px;
